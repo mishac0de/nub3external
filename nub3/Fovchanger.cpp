@@ -7,12 +7,12 @@ bool isScoped;
 int weaponID;
 
 void fovchange() {
-	FOVValue = readMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iFOV);
+	FOVValue = readMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iDefaultFOV);
 	isScoped = readMem<bool>(LocalPlayer::getLocalPlayer() + netvars::m_bIsScoped);
 	if (!isScoped && weaponID != 9) {
-		writeMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iFOV, 110);
+		writeMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iDefaultFOV, 110);
 	} if (weaponID == 9 && isScoped) {
-		writeMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iFOV, 90);
+		writeMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iDefaultFOV, 90);
 	}
 
 }
@@ -31,9 +31,9 @@ void getWeapon() {
 void fovreset() {
 	while (FOVValue == 110) {
 		for (int i = 0; i < 1000; i++) {
-			writeMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iFOV, 90);
+			writeMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iDefaultFOV, 90);
 		}
-		FOVValue = readMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iFOV);
+		FOVValue = readMem<int>(LocalPlayer::getLocalPlayer() + netvars::m_iDefaultFOV);
 	}
 }
 
