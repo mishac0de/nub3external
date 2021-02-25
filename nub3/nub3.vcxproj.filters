@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de origen\SDK">
+      <UniqueIdentifier>{b2de3bba-3836-45bc-9957-17e77d81e501}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\SDK">
+      <UniqueIdentifier>{e1960b8d-b704-4f96-8108-de0f1d730cac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\ENCRYPT">
+      <UniqueIdentifier>{9c2d9f28-4028-459c-8548-b5fd4dbbf15d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\FUNCS">
+      <UniqueIdentifier>{7e892f30-609d-4797-98a0-6726baff8fb8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\FUNCS">
+      <UniqueIdentifier>{bbadb9de-1233-41cc-a241-88fc404f211c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalPlayer.cpp">
+      <Filter>Archivos de origen\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Entidad.cpp">
+      <Filter>Archivos de origen\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoriaTest.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="GlowESP.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Bunnyhop.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="NoFlash.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Radar.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="RCS.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Triggerbot.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Aimbot.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>Archivos de origen\SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+    <ClCompile Include="Fovchanger.cpp">
+      <Filter>Archivos de origen\FUNCS</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoriaTest.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="LocalPlayer.h">
+      <Filter>Archivos de encabezado\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Entidad.h">
+      <Filter>Archivos de encabezado\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Xor.h">
+      <Filter>Archivos de encabezado\ENCRYPT</Filter>
+    </ClInclude>
+    <ClInclude Include="Bunnyhop.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="GlowESP.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="NoFlash.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.h">
+      <Filter>Archivos de encabezado\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Archivos de encabezado\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Radar.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="RCS.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Triggerbot.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Aimbot.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="W2S.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>Archivos de encabezado\SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+    <ClInclude Include="Fovchanger.h">
+      <Filter>Archivos de encabezado\FUNCS</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

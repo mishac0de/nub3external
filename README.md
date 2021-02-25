@@ -1,2 +1,1 @@
-# nub3external
- CS:GO External based on NullBase's SDK.
+CS:GO semi-rage external based on NullBase's SDK, updated offsets.
