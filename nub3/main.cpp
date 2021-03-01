@@ -24,7 +24,7 @@ int main() {
 	printf("nub3 external: Inicializando...");
 	printf("codigo por @mishac0de" "\n" "\n");
 
-	//Inicialización de los valores base (el contenido esta en el final de "MemoriaTest.cpp").
+	//Inicializacion de los valores base (el contenido esta en el final de "MemoriaTest.cpp").
 	init();
 
 	SetConsoleTitle("nub3 external (por @mishac0de)");
